@@ -1,0 +1,6 @@
+/* background image */
+#worldmap {
+    background-color: black;
+    background-image: url(../img/worldmap/worldmap.png);
+    background-size: cover;
+}
