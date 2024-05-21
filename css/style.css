@@ -17,6 +17,7 @@
     float: left;
 }
 
+/* photo gallery */
 #main {
     background-color: blue;
     width: 1000px;
@@ -25,9 +26,32 @@
     float: left;
 }
 
+#main .small-photo {
+    background-color: pink;
+    width: 250px;
+    height: 850px;
+    opacity: 0.8;
+    float: left;
+}
+
+#main #big-photo {
+    background-color: purple;
+    width: 500px;
+    height: 850px;
+    float: left;
+}
+
+/* toolbar */
 #toolbar {
     background-color: green;
     width: 1000px;
     height: 150px;
     float: left;
+}
+
+#nav {
+    background-color: orange;
+    display: flex;
+    margin-top: 0px;
+    padding: 20px 0px;
 }
