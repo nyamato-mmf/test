@@ -4,3 +4,30 @@
     background-image: url(../img/worldmap/worldmap.png);
     background-size: cover;
 }
+
+#wrapper {
+    width: 1500px;
+    margin: auto;
+}
+
+#sidebar {
+    background-color: red;
+    width: 500px;
+    height: 1000px;
+    float: left;
+}
+
+#main {
+    background-color: blue;
+    width: 1000px;
+    height: 850px;
+    color: white;
+    float: left;
+}
+
+#toolbar {
+    background-color: green;
+    width: 1000px;
+    height: 150px;
+    float: left;
+}
