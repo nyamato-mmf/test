@@ -11,7 +11,7 @@
 }
 
 #sidebar {
-    background-color: red;
+    /* background-color: red; */
     width: 500px;
     height: 1000px;
     float: left;
@@ -32,7 +32,7 @@
 
 /* photo gallery */
 #main {
-    background-color: blue;
+    /* background-color: blue;*/
     width: 1000px;
     height: 850px;
     color: white;
@@ -40,7 +40,7 @@
 }
 
 #main .small-photo {
-    background-color: pink;
+    /* background-color: pink;*/
     width: 250px;
     height: 850px;
     opacity: 0.8;
@@ -48,7 +48,7 @@
 }
 
 #main #big-photo {
-    background-color: purple;
+    /* background-color: purple;*/
     width: 500px;
     height: 850px;
     float: left;
@@ -69,9 +69,20 @@
     filter: drop-shadow(10px 10px 2px rgba(0,0,0,0.7))
 }
 
+/* on mousehover */
+.img-movement:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+/* onclick -> transparent */
+.img-movement:active {
+    opacity: 0.7;
+}
+
 /* toolbar */
 #toolbar {
-    background-color: green;
+    /* background-color: green;*/
     width: 1000px;
     height: 150px;
     float: left;
@@ -80,7 +91,7 @@
 }
 
 #nav {
-    background-color: orange;
+    /* background-color: orange;*/
     display: flex;
     margin-top: 0px;
     padding: 20px 0px;
