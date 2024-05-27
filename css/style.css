@@ -17,6 +17,19 @@
     float: left;
 }
 
+#title {
+    color: white;
+    margin: 300px, 50px, 0px, 50px;
+}
+
+#title h1 {
+    font-size: 40px;
+}
+
+#title p {
+    font-size: 14px;
+}
+
 /* photo gallery */
 #main {
     background-color: blue;
