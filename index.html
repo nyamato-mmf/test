@@ -24,19 +24,19 @@
             <!-- small photo -->
             <div class="small-photo">
                 <div class="adjust-small-photo">
-                    <img src="./img/sp_img/sp-3.png" width="150px" class="shadow"><h3>PARIS</h3>
+                    <img id="thumb1" src="./img/sp_img/sp-3.png" width="150px" class="shadow"><h3 id="thumb1_city_name">PARIS</h3>
                 </div>
             </div>
             <!-- big photo -->
             <div id="big-photo">
                 <div class="adjust-big-photo">
-                    <img src="./img/sp_img/sp-0.png" width="400px" class="shadow img-movement"><h3>LONDON</h3>
+                    <img id="main_image" src="./img/sp_img/sp-0.png" width="400px" class="shadow img-movement"><h3 id="main_city_name">LONDON</h3>
                 </div>
             </div>
             <!-- small photo-->
             <div class="small-photo">
                 <div class="adjust-small-photo">
-                    <img src="./img/sp_img/sp-1.png" width="150px" class="shadow"><h3>NEW YORK</h3>
+                    <img id="thumb2" src="./img/sp_img/sp-1.png" width="150px" class="shadow"><h3 id="thumb2_city_name">NEW YORK</h3>
                 </div>
             </div>
         </div>
@@ -44,12 +44,14 @@
         <!-- toolbar -->
         <div id="toolbar">
             <div id="nav">
-                <div id="prev"></div>
+                <div id="prev" onclick="decrease()"></div>
                 <div id="page">1</div><p>/4</p>
-                <div id="next"></div>
+                <div id="next" onclick="increase()"></div>
             </div>
         </div>
     </div>
+
+    <script src="./js/script.js"></script>
 
 </body>
 
